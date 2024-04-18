@@ -11,9 +11,8 @@ Install [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 Set editor in `~/.bashrc`
 ```bash
 export EDITOR=nvim
-```
-Move session.yml to following location: `~/.config/tmuxinator/session.yml`
-Start a new tmux session with:
+
+Add alias to start tmux session using tmuxinator template "session"
 ```bash
-tmuxinator n session <name_of_session>
+alias tms="tmuxinator n session --name ${PWD##*/}"
 ```
