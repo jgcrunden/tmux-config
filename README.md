@@ -14,5 +14,5 @@ export EDITOR=nvim
 
 Add alias to start tmux session using tmuxinator template "session"
 ```bash
-alias tms="tmuxinator n session --name ${PWD##*/}"
+alias tms='tmuxinator n session --name ${PWD##*/}'
 ```
