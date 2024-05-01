@@ -11,6 +11,7 @@ Install [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
 Set editor in `~/.bashrc`
 ```bash
 export EDITOR=nvim
+```
 
 Add alias to start tmux session using tmuxinator template "session"
 ```bash
