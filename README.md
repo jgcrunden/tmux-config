@@ -17,3 +17,9 @@ Add alias to start tmux session using tmuxinator template "session"
 ```bash
 alias tms='tmuxinator s session --name ${PWD##*/}'
 ```
+
+## Color Scheme differences
+In a TTY session nvim/vim colours might not be the same inside tmux. To remedy this add this to your bashrc
+```bash
+alias tmux="tmux -2"
+```
